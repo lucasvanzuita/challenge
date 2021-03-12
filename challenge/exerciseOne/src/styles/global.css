@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-low: rgba(0, 0, 0, 0.44);
+  --dark-medium: rgba(0, 0, 0, 0.60);
+  --dark-high: rgba(0, 0, 0, 0.8);
+  --magenta: #e63888;
+  --light-solid: #ffffff;
+  --light-high: rgba(255, 255, 255, 0.8);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 480px) {
+  body {
+    display: flex;
+  }
+}
